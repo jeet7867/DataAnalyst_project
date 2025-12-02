@@ -1,0 +1,40 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Python egg metadata
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+
+# Environment/Secrets
+*.env
+*.ini
+*.cfg
+
+# Mac / Windows / Linux system files
+.DS_Store
+Thumbs.db
+
+# Build / Distribution
+build/
+dist/
+*.spec
+
+# Backup files
+*.bak
