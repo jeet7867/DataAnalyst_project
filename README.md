@@ -24,7 +24,7 @@ for i, job_title in enumerate(job_titles):
 
 ````
 ### Result
-![Visualization of top skills](images\skill_demand_all_dataroles.png)
+![Visualization of top skills](images/skill_demand_all_dataroles.png)
 
 ### Insight
 
