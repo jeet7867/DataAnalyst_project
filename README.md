@@ -106,7 +106,7 @@ for i in range(5):
 plt.show()
 ```
 ### Results
-![trending Top Skills for Data Analysts in the US](images/skills_trend.pngskills_trend.png)
+![trending Top Skills for Data Analysts in the US](images/skills_trend.png)
 
 *Line graph visualizng the trending top skills for data analyst in the US*
 
