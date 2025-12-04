@@ -26,7 +26,7 @@ for i, job_title in enumerate(job_titles):
 ### Result
 ![Visualization of top skills](images/skill_demand_all_dataroles.png)
 
-### Insight
+### Insight:
 
 🔹 Data Analyst
 ```
@@ -81,3 +81,76 @@ Analysts → Reporting & Visualization
 Engineers → Data Infrastructure & Pipelines
 
 Scientists → Modeling, ML, Experimentation
+````
+
+## 2. How are in-demand skills trending for Data Analysis?
+
+### Visualize Data
+
+```python
+from matplotlib.ticker import PercentFormatter
+
+sns.lineplot(data=df_DA_US_percent.iloc[:, :5],dashes=False,palette="tab10")
+sns.set_theme(style='ticks')
+
+plt.title('Trending Top Skills for Data Analysts in the US (%)')
+plt.ylabel('Percentage of Job Posts (%)')   
+plt.xlabel('')
+plt.legend().remove()
+sns.despine()
+plt.gca().yaxis.set_major_formatter(PercentFormatter(decimals=0))
+for i in range(5):
+    plt.text(11, df_DA_US_percent.iloc[11, i] 
+             , df_DA_US_percent.columns[i], color=sns.color_palette("tab10")[i])
+
+plt.show()
+```
+### Results
+![trending Top Skills for Data Analysts in the US](images\skills_trend.png)
+
+*Line graph visualizng the trending top skills for data analyst in the US*
+
+
+### Insight:
+```
+
+🔹 1. SQL remains the most in-demand skill
+
+Consistently leads at 55–63% of all data analyst job postings.
+
+Shows slight decline mid-year but maintains clear dominance.
+
+Indicates SQL is a non-negotiable foundational skill.
+```
+```
+🔸 2. Excel stays strong and stable
+
+Second-most required skill at 34–45%.
+
+Peaks around July–August, likely reflecting business reporting cycles.
+
+Continues to be a core skill despite modern tools.
+```
+```
+🟢 3. Tableau demand fluctuates
+
+Moves between 28–36% across the year.
+
+Slight surge during mid-year suggests increased hiring for BI/reporting roles.
+```
+```
+🔴 4. Python demand shows a steady mid-year rise
+
+Ranges from 28–34%.
+
+Growth in June–July aligns with expanding need for automation and advanced analytics.
+
+Closing months show renewed upward trend.
+```
+```
+🟣 5. Power BI grows steadily throughout the year
+
+Starts near 18% and rises towards 22–23%.
+
+Slower but consistent adoption—reflecting Microsoft ecosystem expansion.
+```
