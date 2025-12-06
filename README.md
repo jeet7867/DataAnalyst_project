@@ -24,7 +24,7 @@ for i, job_title in enumerate(job_titles):
 
 ````
 ### Result
-![Visualization of top skills](images\skill_demand_all_dataroles.png)
+![Visualization of top skills](images/skill_demand_all_dataroles.png)
 
 ### Insight:
 
@@ -106,7 +106,7 @@ for i in range(5):
 plt.show()
 ```
 ### Results
-![trending Top Skills for Data Analysts in the US](images\skills_trend.png)
+![trending Top Skills for Data Analysts in the US](images/skills_trend.png)
 
 *Line graph visualizng the trending top skills for data analyst in the US*
 
@@ -176,7 +176,7 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analysts in the US](images\trending_topskills_for_data_analyst_in_us.png)  
+![Trending Top Skills for Data Analysts in the US](images/trending_topskills_for_data_analyst_in_us.png)  
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 
@@ -213,7 +213,7 @@ plt.show()
 #### Results
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images\highest_paid.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/highest_paid.png)
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 #### Insights:
