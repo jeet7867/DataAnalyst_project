@@ -35,6 +35,3 @@ Thumbs.db
 build/
 dist/
 *.spec
-
-# Backup files
-*.bak
